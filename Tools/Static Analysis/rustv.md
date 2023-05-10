@@ -1,0 +1,8 @@
+- Semi-automatic verification of unsafe rust programms
+- Basiert auf Isabelle/Simpl(?)
+- https://github.com/pandaman64/sabi
+- Kein Update seit 2021, Doku sehr dürftig
+- Kein Paper auf die schnelle Gefunden
+- Benutzen die selbe Idee wie beim Verifizieren von seL4-Kernel
+- Vorgehen: Man zieht die Spezifikationen für eine Unsafe-Funktion aus dem Safety-Bereich der Doku (diese definiert wann eine unsafe-Fkt. sicher ist) und gibt diese in Simpl/Isabelle. Die Funktion an sich wird auch in Simpl/Isabelle umenkodiert, dann wird geprooft
+- Kein Support für structs, enums, arays, loops, function calls

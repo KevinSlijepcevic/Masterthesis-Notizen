@@ -1,0 +1,4 @@
+- Useability
+- Output-Format
+- Mächtigkeit
+- Community/Wer betreibt das Tool?

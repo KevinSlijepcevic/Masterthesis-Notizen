@@ -1,0 +1,12 @@
+https://github.com/RalfJung/minirust
+- Specify what exactly unsafe code will do when executed
+- Es werden nicht klassische Spezifikationen geschrieben sondern Operational specification, describe state that is relevevant for execution and describe how state changes overtime
+- Sehr nah dran an Miri
+- Operational semantics, also step-by-step beschreibungen anstatt regeln
+- Was ist MiniRust?
+	- Abstract syntax for MiniRust Programms
+	- Interpreter for running MiniRust programms
+	- Sprache: Pseudo Rust
+- Es baut einen eigenen Computer in Rust nach, wie eine VM
+- Man kann damit unsafe Rust Code in einem Computer simulieren und die einzelnen Steps nachvollziehen
+- Unterstützt bisher nicht die komplette Sprachgewalt, z.B. Floats

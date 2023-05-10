@@ -1,0 +1,5 @@
+- Basiert auf Haskell
+- Verarbeitet spezielle, für crux-mir angelegte, Test-Cases mit Symbolic Execution
+- Generiert mit Hilfe von mir-json eine .json-Datei aus einer Cargo/Rust-File, welche wiederrum in crux-mir gefüttert wird und in Crucible umgeformt wird, welche dann ausgeführt wird
+- Es müssen Patches bei jeder neuen Rust Version durchgeführt werden (Slices)
+- Kann auch teils mit unsafe-Code umgehen (v.a. gedacht für stdlib)

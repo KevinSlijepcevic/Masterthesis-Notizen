@@ -1,0 +1,10 @@
+- Von AWS
+- https://github.com/model-checking/kani
+- Basiert auf MIR, hauptsächlich für unsafe Code
+- Erzeugt schöne Reports in HTML mit Trace (allerdings in MIR-Format) und zeigt sogar die verwendeten Werte an wenn etwas failed
+- Automatic checks
+	- Buffer overflows/Zero Division/OverUnderflow/PointerArithmetic/PointerSafety
+- User checks:
+	- assertions/object invariants
+- Haben damit Buffer Overflow gefunden: https://nvd.nist.gov/vuln/detail/CVE-2018-1000657
+- Benutzt Modelchecker CBMC

@@ -1,0 +1,9 @@
+- https://github.com/JonasAlaif/russol-alpha
+- Sehr früher Prototyp
+- https://ilyasergey.net/assets/pdf/papers/russol-pldi23.pdf
+- Deductive Synthesis von Safe Rust
+- Synthetisiert Rust-Programmcode aus Funktionsrümpfen und Specifications ala Mischung zwischen Prusti und Creusot (ensures, requires)
+- Was noch nicht geht:
+	- Trait bounds, Closures, Arrays/Vectors und Unsafe Code
+- **Benutzt kein Prusti/Creusot zur Verifikation!**
+- Benutzt eine Proof Solver um einen Proof zu finden, mit Pre und Postcondition
