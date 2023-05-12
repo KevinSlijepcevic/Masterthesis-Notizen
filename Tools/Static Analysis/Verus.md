@@ -13,3 +13,6 @@ let mut account = account; transfer(&mut account, &mut account, 100) // Fehler d
 ```
 - Ghost-Code möglich (also Code der nur zur Verifikation benutzt wird, aber nicht compiliert wird)
 - Solver-Optionen einstellbar im Code (z.B. by (nonlinear_arith) oder by (bit_vector))
+
+Fortschritt 2023 (Linear Ghost Types):
+- https://arxiv.org/pdf/2303.05491.pdf

@@ -1,2 +1,7 @@
 - https://github.com/flux-rs/flux
+- Kommt mir sehr unausgereift und roh vor, eher nicht in Arbeit aufnehmen, aber interessanter Ansatz
 - Prüft eher "leichtere" Sachen wie Array-Boundaries, Unreachable Arms und Overflows
+- Basiert auf Z3
+- Refinement of Types und Ownership
+- Andere Syntax für Pre/Postconditions
+	- #[flux::sig(fn(n: i32) -> i32{v: v < 0})]
