@@ -1,0 +1,8 @@
+- War ein Unterfangen von Google Research, Verification in Rust für viele Devs zugänglich zu machen
+- https://project-oak.github.io/rust-verification-tools/
+- https://github.com/project-oak/rust-verification-tools
+- Paper: https://alastairreid.github.io/papers/HATRA_20/
+- Wurde am 01.09.2021 eingestellt, da noch zu wenig Tools bzw. die Sprache noch zu neu
+- Motivation: Rust ist von Haus aus schon gut und erzieht den Dev zu einem besseren Programmierstil, also auch noch gleich Verifikation dazu und dieses bestmöglich an ALLE Developer verfügbar machen (also auch vom cognitiven Workload)
+- Idee: Einen "shift left" Prozess einzuleiten, bei dem Bugs früher im Entwicklungsprozess gefunden werden (Rust hilft von Haus aus schon dabei durch den strikten Compiler)
+- Wollten 50% der Rust-Entwickler bei Google dazu ermutigen, diese Tools einzusetzen

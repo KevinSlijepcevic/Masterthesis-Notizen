@@ -1,0 +1,10 @@
+- Concurrency checker crate
+- https://github.com/tokio-rs/loom
+- https://docs.rs/loom/latest/loom/
+- Unter dem Hut von Tokio
+- Führt einen Test häufig aus, ändert dabei nebenläufige Parameter um seltene Seiteneffekte zu finden. Benutzt state reduction um die Anzahl der Testläufe zu reduzieren. Basiert aber nich auf Zufall.
+- Versprechen: This allows you to write tests that verify that your concurrent code is correct under _all_ executions, not just “most of the time”.
+- Tests müssen deterministisch sein, alle undeterministischen Quellen müssen gemockt werden
+- Basiert auf dem C11 memory model
+- Ist ein exhaustive check
+- Wissen zu Rust-Concurrency: Rusts Ownership Modell verhindert nicht generell race conditions, sondern nur solche, bei der memory safety in Gefahr ist (bei safe Rust). Deadlocks o.ä. sind weiterhin möglich. Es werden data races verhindert!

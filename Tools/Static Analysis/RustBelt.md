@@ -1,0 +1,5 @@
+- Formal Tool for verifying safe encapsulation of "unsafe" Rust Code
+- https://plv.mpi-sws.org/rustbelt/#project
+- Wird nicht weitergeführt, eher nicht in Arbeit aufnehmen
+- War mit RustHorn eins der ersten Tools für Verifikation in Rust
+- War für proofing encapsulation of unsafe Rust Code gedacht

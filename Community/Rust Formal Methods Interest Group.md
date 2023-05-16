@@ -1,0 +1,3 @@
+- https://rust-formal-methods.github.io/
+- Ziel: Improve communication between formal tool devs and Rust core team
+- Hält regelmäßige Workshops ab, an denen neue (oder bestehende) Tools vorgestellt werden. Letze war Okt. 2022

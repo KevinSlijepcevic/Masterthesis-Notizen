@@ -1,2 +1,7 @@
-- Fuzzing
+- Property Testing
 - https://github.com/proptest-rs/proptest
+- https://proptest-rs.github.io/proptest/
+- "_Property testing_ is a system of testing code by checking that certain properties of its output or behaviour are fulfilled for all inputs. These inputs are generated automatically, and, critically, when a failing input is found, the input is automatically reduced to a _minimal_ test case."
+- Crate ist nahezu feature-complete
+- Idealerweise komplementär mit regulären Unit-Tests gepaart
+- Given infinite time, property testing will eventually explore the whole input space to a test. However, time is not infinite, so only a randomly sampled portion of the input space can be explored. This means that property testing is extremely unlikely to find single-value edge cases in a large space.

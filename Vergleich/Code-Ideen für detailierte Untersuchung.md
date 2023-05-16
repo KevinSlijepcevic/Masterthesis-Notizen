@@ -1,0 +1,9 @@
+- Breiten/Tiefensuche
+- Binäre Suche
+- Linked List (Double Linked List), in Anlehnung an https://rust-unofficial.github.io/too-many-lists/index.html
+- Stack oder Ringspeicher
+- AVL-Baum
+- Quicksearch
+- 15 Puzzle
+- Textsuche (Boyer-Moore-Algo.)
+- Wegfindung (Dijkstra) (Visualisierung mit https://www.graphviz.org/doc/info/lang.html)

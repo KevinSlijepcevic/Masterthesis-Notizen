@@ -7,7 +7,8 @@ Magic Wand:
 - "H1 wand H2", defines a heap predicate such that, if we extend it with H1, we obtain H2
 
 Symbolic Execution:
-- Es werden nicht alle Werte durchgetestet, sondern symbolisch betrachtet
+- Es werden nicht alle Werte durchgetestet, sondern symbolisch betrachtet. Somit alle Pfade in einem Programmablauf abfahren
+- Symbolic execution engines answer these questions by converting each variable in the program or function into a mathematical expression which depends on the function or program inputs. Then they use an SMT solver to answer questions about these expressions.
 
 Hoare-Logic:
 - Precondition -> Fkt. -> Postcondition

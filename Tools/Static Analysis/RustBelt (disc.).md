@@ -1,2 +1,0 @@
-- Formal Tool for verifying safe encapsulation of "unsafe" Rust Code
-- https://plv.mpi-sws.org/rustbelt/#project

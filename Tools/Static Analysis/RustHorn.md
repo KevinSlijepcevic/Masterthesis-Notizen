@@ -1,0 +1,5 @@
+- https://github.com/hopv/rust-horn
+- https://dl.acm.org/doi/full/10.1145/3462205
+- Vollständig automatisierte Verifikation mit constrainted Horn clauses (CHC)
+- Nicht mehr aktiv anscheinend
+- War eines der ersten Tools für Rust Verifikation, viele Tools nennen dieses als Inspiration
