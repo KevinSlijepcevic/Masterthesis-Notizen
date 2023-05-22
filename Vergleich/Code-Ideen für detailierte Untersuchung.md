@@ -1,7 +1,5 @@
 - Breiten/Tiefensuche
-- Binäre Suche
 - Linked List (Double Linked List), in Anlehnung an https://rust-unofficial.github.io/too-many-lists/index.html
-- Stack oder Ringspeicher
 - AVL-Baum
 - Quicksearch
 - 15 Puzzle

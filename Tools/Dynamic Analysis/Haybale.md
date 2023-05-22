@@ -1,3 +1,4 @@
 - Ist eine Symbolic Execution Engine für IR LLVM Code (somit auch für C/C++ etc. verfügbar)
 - https://github.com/PLSysSec/haybale
 - Kein neues release seit Okt. 2021, eher nicht mit in Arbeit aufnehmen
+- So ähnlich wie KLEE, nur in Rust geschrieben

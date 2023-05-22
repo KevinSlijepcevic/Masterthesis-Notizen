@@ -14,5 +14,6 @@
 	- Wie aktiv wird das Tool entwickelt? Ist es vlt. schon feature complete?
 - Wissenschaftliche Publikationen bzw. Vorträge/Workshops
 	- Wird das Tool oft erwähnt in Publikationen? Wird es oft in Vorträgen/Workshops erwähnt?
+	- Zahl der Zitierungen ist gutes Maß wie interessant ein Papier ist
 - Dokumentation
 	- Wie gut ist das Tool dokumentiert? Findet man leicht Informationen?

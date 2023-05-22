@@ -1,0 +1,15 @@
+-   Introduction (also die Motivation und wieso Rust gut für Verifikation geeignet ist)
+-   Overview of current verification projects for Rust  
+	-   Static Verification  
+	-   Dynamic Verification
+	-   Other Tools
+- $TOOL1
+	-   Introduction
+	-   Technology
+	-   Application on Code  
+-   $TOOL2 (evtl.)
+	-   Introduction
+	-   Technology
+	-   Application on Code
+-   Results and Discussion
+-   Summary and Outlook
