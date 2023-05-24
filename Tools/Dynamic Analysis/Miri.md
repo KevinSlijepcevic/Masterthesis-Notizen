@@ -14,3 +14,5 @@ https://github.com/rust-lang/miri
 - Ist gut um zB Tests auszuführen und so UB zu finden, welches ansonsten manchmal gut gehen kann, manchmal nicht
 - Operationen sind teils random, Miri geht also einen Tag durch und failed den anderen Tag (nur bei Concurrency, da PRNG benutzt wird (Preempting z.B))
 - Insgesamt aber sehr mächtiges Tool und sollte in jeder CI integriert werden
+
+Borrow-Stack (Konzeptionelles Model für raw pointer, https://rust-unofficial.github.io/too-many-lists/fifth-stacked-borrows.html) ist interessant, arbeitet wie ein Stack und nur der oberste pointer ist valide, wenn man einen darunter liegenden pointer benutzen möchte, müssen erst die darüber liegenden gepopt werden. Miri checkt das v.a. im strict Mode:  ```MIRIFLAGS="-Zmiri-tag-raw-pointers"```

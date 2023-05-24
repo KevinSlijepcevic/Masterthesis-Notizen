@@ -1,17 +1,21 @@
 *Es sollte generell zwischen Tools für unsafe und safe Rust-Code unterschieden werden. Diese sind schwer miteinander zu vergleichen.*
 
 - Useability
-	- Wie einfach ist das Tool in den "normalen" Workflow eines Devs zu integrieren? Ist es automatisiert?
+	- Wie einfach ist das Tool in den "normalen" Workflow eines Devs zu integrieren? (Vorsicht hierbei, ist eher subjektiv)
+	- Ist es automatisiert?
+	- Wie kann ich meinen Code in das Tool integrieren?
 - Technologie
 	- Auf welcher Technologie basiert das Tool? Kann man das Tool an seine Bedürfnisse anpassen bspw. anderer SMT-Solver?
 - Feedback
 	- Wie meldet das Tool einen Fehler/keinen Fehler? Ist dieser nachvollziehbar? Liefert es Gegenbeispiele?
 - Mächtigkeit
 	- Kann es mit der ganzen Sprachgewalt von Rust umgehen? Was sind seine Limitierungen?
+	- Welche Verifikationsbedingungen unterstützt das Tool? (Initialisierung, Vor- und Nachbedingungen an Funktionen, Prädikate an Typen, Terminierung, Assertions, Loop Invarianten, Loop-Varianten, Nutzung globaler Variablen, Datenabhängigkeiten, etc.)
 - Entwicklung
 	- Wer hat das Tool entwickelt? Steht eine Firma dahinter? Ist es nur ein kleines Proof-of-Concept?
 - Aktivität
 	- Wie aktiv wird das Tool entwickelt? Ist es vlt. schon feature complete?
+	- Wird das Tool bereits praktisch verwendet? (Falls ja, wie umfangreich ist der Code? Tests und POC-Projekte mitzählen)
 - Wissenschaftliche Publikationen bzw. Vorträge/Workshops
 	- Wird das Tool oft erwähnt in Publikationen? Wird es oft in Vorträgen/Workshops erwähnt?
 	- Zahl der Zitierungen ist gutes Maß wie interessant ein Papier ist
