@@ -5,3 +5,8 @@
 - Kann nur partielle Korrektheit beweisen, terminierung wird nicht geprüft
 - Ist konservativ, d.h. es werden error reported außer Prusti kann beweisen das diese Eingehalten werden
 - #[pure] müssen terminieren, das muss der User sicherstellen
+
+
+**Doku:**
+**Useability:**
+
