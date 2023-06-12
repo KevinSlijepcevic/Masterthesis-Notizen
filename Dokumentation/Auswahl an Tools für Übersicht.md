@@ -1,15 +1,15 @@
 **Static Analysis**
 - Prusti
 - Creusot
-- Verus
 - Aenas
+- Verus
 - MIRAI
 
 **Dynamic Analysis**
 - Miri
 - (MiniRust)
 - Kani
-- Proptest
+- (Proptest)
 - (crux-mir)
 - Loom
 - (Shuttle)

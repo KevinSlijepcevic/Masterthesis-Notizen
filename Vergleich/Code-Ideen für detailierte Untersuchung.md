@@ -5,3 +5,6 @@
 - 15 Puzzle
 - Textsuche (Boyer-Moore-Algo.)
 - Wegfindung (Dijkstra) (Visualisierung mit https://www.graphviz.org/doc/info/lang.html)
+- Sudoku-Solver
+- Calculator
+- Find if a point is in a Triangle

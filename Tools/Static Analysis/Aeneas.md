@@ -8,3 +8,14 @@
 - Ist nicht automatisiert, man gibt Aeneas ein Rust-Programm und es bildet ein pure model daraus und dann kann man machen was man will damit im Solver (dort müssen dann auch die Proofs geschrieben werden)  
 - Keine nested-borrows bisher
 - Relativ aktiv
+
+
+Paper:
+	- Verification Toolchain based on lightweight functional translation (Abstract)
+	- Keine interior mutability or unsafe code (Abstract)
+	- New approach für borrows und controlled aliasing: propose a pure, functional semantic for low-level borrow calculus (LLBC)
+
+
+Youtube: 
+	-https://www.youtube.com/watch?v=2sILtqcZqqg
+	-Similar to Electrolysis

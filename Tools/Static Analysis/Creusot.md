@@ -21,22 +21,15 @@ https://github.com/xldenis/creusot
 Paper:
 	- Testsuite vorhanden ala Prusti mit praktischen Beispielen
 	- CreuSAT wurde damit verifiziert
-	- Kann mit Traits umgehen, kann kein unsafe aber kann mit safe abstractions like Vec umgehen
-	- Sprache für Specifications is called Pearlite (Pre/Post, Implications, Quantifiers (forall, exisits) unterstützt, Loop Invariants, Logical equality = = = , Result keyword)
-	- @: Model Operator for Model Trait
-	- ^: Final operator for Prophecy, für access of mutable borrow at end of lifetime, * current val, wird so von Why3 
-	- Unterstützt ghost types
-	- Annotated programm is getting translated into Why3, Why3 unterstützt verschiedene SMT Solver, pluspunkt da Why3 gut getestet und weit verbreitet ist
-	- Pearlite formulas are type checked, not borrow checked
-	- User can introduce user lemmas
-	- Creusot translated programms into WhyML, the programming language of Why3
-	- Benutzt MIR -> Benutzt Why3 input front-end MLCFG welcher das WhyML erstellt
-	- Benutzt traits aktiv zum verifiying
-	- Trait result?? Trait Model?? -> Evtl. mal Testbeispiele prüfen für Verständnis
-	- Extends Rust compiler
-	- Vorteil der klapseung in pearlite makro ist das die funtkionen nicht im normalen programmablauf verwendet werden können, wie z.b. pure functions in prusti
 	- Evtl Kapitel 6 im Bezug auf Prusti zusammenfassen und auch auf Aenas
-	- Creusot verlässt sich auf Rusts type system, nicht wie bei prusti
 
 Paper 2 (ist die detailiertere aber ältere variante):
 	-	Based on RustHorn
+
+Install:
+	- brew expat gtk+3 gtksourceview3 libxml2 autoconf
+	- ~/.opam
+	- `opam install lablgtk3 lablgtk3-sourceview3 ocamlgraph why3 why3-ide`
+
+Usage:
+	- In rustup die exakte Version setzen, mit der das Tool auch compiliert wurde, sonst fehler, nightly-2023-05-26-aarch64-apple-darwin
