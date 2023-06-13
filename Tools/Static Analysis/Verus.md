@@ -14,7 +14,7 @@ let mut account = account; transfer(&mut account, &mut account, 100) // Fehler d
 - Ghost-Code möglich (also Code der nur zur Verifikation benutzt wird, aber nicht compiliert wird)
 - Solver-Optionen einstellbar im Code (z.B. by (nonlinear_arith) oder by (bit_vector))
 - https://www.youtube.com/watch?v=7WtWA0TTBqg
-	- Zeigt teils andere Syntax ? verus! macro?
+	- Benutzt schon neue Syntax
 
 Fortschritt 2023 (Linear Ghost Types):
 - https://arxiv.org/pdf/2303.05491.pdf
@@ -82,3 +82,14 @@ User doku:
 	- https://verus-lang.github.io/verus/guide/
 Support für Rust syntax:
 	- https://verus-lang.github.io/verus/guide/features.html
+	- https://github.com/verus-lang/verus/wiki/Status%3A-currently-supported-Rust-features
+- **Syntax change**!
+	- Paper und included Beispiele basiert noch auf alter syntax!
+	- https://github.com/verus-lang/verus/wiki/Doc%3A-Deprecated-and-recommended-syntax%2C-and-upcoming-changes
+	- Basiert nicht mehr auf fork von rustc: https://github.com/verus-lang/verus/tree/main_new
+- Features:
+	- Over/Underflow: https://verus-lang.github.io/verus/guide/requires_ensures.html
+
+
+`#[verifier(external_body)]`
+	-Exkludiert function von verification, nur noch pre/post conditions werden beachtet

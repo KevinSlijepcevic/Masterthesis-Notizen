@@ -8,3 +8,4 @@
 - Sudoku-Solver
 - Calculator
 - Find if a point is in a Triangle
+- **Wörterbuchpflege**
