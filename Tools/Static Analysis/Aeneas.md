@@ -14,7 +14,7 @@ Youtube:
 	-Similar to Electrolysis
 	- Bildet ein pure model aus non-annotated Rust Code, für z.B. Coq, Isabelle oder HOL4, wo dann der User write and prove lemmas machen kann
 	- Es gibt keine borrows in der pure world
-	- Bildet für jede Funktion eine forward und eine backward implementation in funktional, für jede Rust funktion, back ist benötigt für propagating changes back into the environment
+	- Bildet für jede Funktion eine forward und eine backward implementation in funktional (für jeden lifetime bereich, Kap. 7), für jede Rust funktion, back ist benötigt für propagating changes back into the environment
 		- Forward: Nehme normalen Rust Rumpf einer Funktion und wandle diese in funktionale Parameter um, z.B. Borrow entfernen
 		- Backward: Nehme den normalen Rust Rumpf und füge als Eingabeparameter noch den mutable Return-Wert Funktion ein
 		- Basiert auf MIR
@@ -76,5 +76,8 @@ Kap 6. Evaluation with HashTable: Functions: insert, get, get_mut und remove
 Kap. 7: 
 - Loops sollen bald unterstützt werden, Ziel: feature paritiy with Creusot and Prusti
 - Danach Traits, Coq Backend
+- Aenas bietet eine precise semantic of ownership in Rust; viel genauer als der borrow checker und auch genauer als Project Polonius
+- Bisher keine function pointers, keine traits aber ist nur frage von engineering
+- nested borrows bisher auch nicht, ist aber in der mache
 
 
