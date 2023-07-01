@@ -73,3 +73,13 @@ Tag Analysis https://github.com/facebookexperimental/MIRAI/blob/main/documentati
 - Unterstützt: context-, field-, flow-, and path-sensitive tag analysis
 - Löst mit Hilfe von Z3 diese, wenn data-flow-analysis is not precise enough
 - MIRAI avoided false negatives, also eher konservativ; hier auch
+
+
+
+**Implementierung:**
+- MIRAI annotations unterstützt kein old in precondition! macro, muss man manuell aufm stack speichern
+	Müssen auch dementsprechend im code platziert werden, da einfache macro calls sind
+	Geben aber bessere fehlermeldungen: warning: provably false postcondition
+- Beide Crates können gemixt werden, für annotations eher contracts crate und für advanced stuff mirai
+
+
